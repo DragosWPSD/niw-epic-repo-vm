@@ -7,6 +7,11 @@
     <body>
         <h1>Acesta este titlul principal</h1>
         <p>Acesta <strong>este</strong> un pragraf</p>
-        <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" width="1280" height="720" alt="Imagine sugestiva html"/>
+        <picture>
+            <source media="(min-width: 1600px)" srcset="transfagarasan-1600.webp" /> 
+            <source media="(min-width: 640px)" srcset="transfagarasan-640.webp" /> 
+            <source type="image/webp" srcset="transfagarasan-320.webp" />
+            <img src="transfagarasan-320.jpg" width="320" height="213" alt="Descrierea textuala a imaginii"/>
+        </picture>
     </body>
 </html>
